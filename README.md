@@ -2,7 +2,7 @@
 
 -----------------------------
 
-![image](https://user-images.githubusercontent.com/50515418/187360720-838dd49c-2796-49e1-94fe-a5b19cf9c839.png)
+[![image](https://user-images.githubusercontent.com/50515418/187360720-838dd49c-2796-49e1-94fe-a5b19cf9c839.png)](https://www.w3schools.com/php/php_variables_scope.asp)
 
 ## >>> PHP [Compatibility](https://github.com/PHPCompatibility/PHPCompatibility)
 
