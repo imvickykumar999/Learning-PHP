@@ -15,6 +15,36 @@
 
 ### Getting Error...
 
+    C:\xampp\php>php phpcs.phar --standard=PHPCompatibility --runtime-set testVersion 8.1 C:\xampp\htdocs\PHPMigration\bnwdmzedi01n01_php5.4.2\bnwdmzedi01n01_php5.4.24\includes\nuSoap
+
+    FILE: ...wdmzedi01n01_php5.4.24\includes\nuSoap\lib\class.nusoap_base.php
+    ----------------------------------------------------------------------
+    FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+    ----------------------------------------------------------------------
+     225 | WARNING | Use of deprecated PHP4 style class constructor is
+         |         | not supported since PHP 7.
+    ----------------------------------------------------------------------
+
+
+    FILE: ...nwdmzedi01n01_php5.4.24\includes\nuSoap\lib\class.soapclient.php
+    ----------------------------------------------------------------------
+    FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+    ----------------------------------------------------------------------
+     98 | WARNING | Use of deprecated PHP4 style class constructor is not
+        |         | supported since PHP 7.
+    ----------------------------------------------------------------------
+
+
+    FILE: ...nwdmzedi01n01_php5.4.24\includes\nuSoap\lib\class.soap_fault.php
+    ----------------------------------------------------------------------
+    FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+    ----------------------------------------------------------------------
+     48 | WARNING | Use of deprecated PHP4 style class constructor is not
+        |         | supported since PHP 7.
+    ----------------------------------------------------------------------
+
+--------------------------------
+
     C:\xampp\php>php phpcs.phar --standard=PHPCompatibility --runtime-set testVersion 8.2 C:\xampp\htdocs\phptest
 
         FILE: C:\xampp\htdocs\phptest\index.php
