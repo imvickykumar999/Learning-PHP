@@ -1,11 +1,18 @@
-<!DOCTYPE html>
+
+<!-- Note: PHP statements end with a semicolon (;). -->
+
+<!DOCTYPE>
 <html>
-<body>
+    <body>
+        <h1>
+            My first PHP page
+        </h1>
 
-<?php
-$txt = "PHP";
-echo "I love $txt!";
-?>
+        <?php
+            echo "Hello World!<br>";
+            ECHO "Hello World!<br>";
+            EcHo "Hello World!<br>";
+        ?>
 
-</body>
+    </body>
 </html>
